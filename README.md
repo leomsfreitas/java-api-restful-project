@@ -16,7 +16,7 @@ A aplicação é uma API RESTful que permite gerenciar o cadastro de consertos d
 - **Excluir Conserto**: Realiza exclusão lógica (soft delete) marcando o conserto como inativo.
 - **Validações Automáticas**: Campos obrigatórios e formato de datas validados.
 
-## Tecnologias
+## Tecnologias 
 
 - **Java 21**
 - **Spring Boot 3.5.5**
