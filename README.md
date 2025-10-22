@@ -27,44 +27,6 @@ A aplicação é uma API RESTful que permite gerenciar o cadastro de consertos d
 - **Lombok** (redução de boilerplate)
 - **Maven**
 
-## Estrutura do Projeto
-
-```
-java-api-restful-project/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── br/
-│       │       └── edu/
-│       │           └── ifsp/
-│       │               └── leo/
-│       │                   ├── ApiConsertosApplication.java
-│       │                   ├── controller/
-│       │                   │   └── ConsertoController.java
-│       │                   ├── conserto/
-│       │                   │   ├── Conserto.java
-│       │                   │   ├── ConsertoRepository.java
-│       │                   │   ├── DadosCadastroConserto.java
-│       │                   │   ├── DadosAtualizacaoConserto.java
-│       │                   │   ├── DadosDetalhamentoConserto.java
-│       │                   │   └── DadosListagemConserto.java
-│       │                   ├── mecanico/
-│       │                   │   └── Mecanico.java
-│       │                   └── veiculo/
-│       │                       └── Veiculo.java
-│       └── resources/
-│           ├── application.properties
-│           └── db/
-│               └── migration/
-│                   ├── V1__create-table-consertos.sql
-│                   ├── V2__alter-table-consertos-add-cor-veiculo.sql
-│                   └── V3__alter-table-consertos-add-ativo.sql
-│                   └── V4__insert-initial-data.sql
-├── pom.xml
-├── LICENSE
-└── README.md
-```
-
 ## Modelo de Dados
 
 ### Entidade Principal: Conserto
