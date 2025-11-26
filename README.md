@@ -4,8 +4,6 @@
 
 A aplicação é uma API RESTful que permite gerenciar o cadastro de consertos de veículos, incluindo informações sobre o veículo, mecânico responsável e datas de entrada e saída. O sistema implementa operações CRUD completas com validações, paginação e exclusão lógica de registros.
 
----
-
 ## Tecnologias 
 
 - **Java 21**
@@ -17,7 +15,6 @@ A aplicação é uma API RESTful que permite gerenciar o cadastro de consertos d
 - **Lombok**
 - **Maven**
 
----
 
 ## Endpoints da API
 
